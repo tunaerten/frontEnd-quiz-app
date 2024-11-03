@@ -1,0 +1,148 @@
+@media (min-width: 85rem) {
+  .quiz {
+    background: url(../assets/images/pattern-background-desktop-light.svg);
+    background-repeat: no-repeat;
+    background-color: var(--clr-neutral-200);
+    padding-top: 5.25em;
+    padding-bottom: 2.5em;
+  }
+
+  .quiz.darkmode {
+    background: url(../assets/images/pattern-background-desktop-dark.svg);
+    background-repeat: no-repeat;
+    background-color: var(--clr-neutral-800);
+  }
+
+  .container {
+    padding-left: 8.4rem;
+    padding-right: 9rem;
+  }
+
+  .quiz-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 560px;
+    margin-top: 2.7rem;
+  }
+
+  .heading-wrapper {
+    margin-left: 0.13em;
+  }
+
+  .sub-heading {
+    margin-left: 0.2em;
+    word-spacing: 0.6px;
+    margin-top: 2.5em;
+  }
+
+  .quiz-options-wrapper {
+    margin-top: 0;
+  }
+
+  .quiz-options {
+    gap: 0.7rem;
+    justify-content: center;
+    margin-top: 1.7em;
+  }
+
+  .quiz-options li {
+    padding: 0.7em;
+    margin-top: 0.5em;
+  }
+
+  .heading {
+    margin-top: 0.55em;
+  }
+
+  .sub-heading {
+    margin-top: 2.47em;
+  }
+
+  .icon-container {
+    margin-left: 0.3em;
+  }
+
+  .desktop {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.1rem;
+  }
+
+  .quiz-container {
+    margin-top: 5.35em;
+  }
+
+  .question-navigation {
+    margin-left: 0.2em;
+  }
+
+  .question {
+    max-height: 7.45rem;
+    margin-left: 0.1em;
+    max-width: 85%;
+  }
+
+  #completing-bar {
+    margin-top: 16.15em;
+  }
+
+  .answer-container {
+    margin-top: 5.3em;
+  }
+
+  .answers {
+    gap: 1.5rem;
+  }
+
+  .answers li {
+    padding: 0.65em 0em 0.65em 0.7em;
+    border-radius: 1rem;
+  }
+  .answers li {
+    & span {
+      font-size: 28px;
+      width: 56px;
+      height: 56px;
+      border-radius: 0.5rem;
+    }
+  }
+
+  .score-container {
+    display: flex;
+  }
+
+  .text-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.3em;
+    margin-left: 0.3em;
+    min-width: 51%;
+  }
+
+  .score-box {
+    border-radius: 25px;
+  }
+
+  .category {
+    margin-top: 0.45em;
+  }
+
+  .category-text {
+    margin-right: 5.65em;
+  }
+
+  .score-icon-container {
+    justify-content: center;
+  }
+
+  .score-icon-container .icon {
+    margin-left: 0;
+  }
+
+  .score-text {
+    margin-right: 0.2em;
+  }
+
+  .again-btn {
+    padding: 1.08em 0.2em 1.05em 0;
+  }
+}

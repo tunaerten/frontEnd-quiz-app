@@ -1,0 +1,250 @@
+@media (min-width: 48rem) {
+  .quiz.darkmode {
+    background: url(../assets/images/pattern-background-tablet-dark.svg);
+    background-repeat: no-repeat;
+    background-color: var(--clr-neutral-800);
+  }
+
+  .quiz {
+    background: url(../assets/images/pattern-background-tablet-light.svg);
+    background-repeat: no-repeat;
+    background-color: var(--clr-neutral-200);
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+  }
+
+  .container {
+    padding-left: 3.9rem;
+    padding-right: 4rem;
+  }
+
+  .icon-header {
+    justify-content: flex-start;
+  }
+
+  .icon-container {
+    margin-left: 0.2em;
+    width: 56px;
+    height: 56px;
+    border-radius: 8px;
+    justify-content: unset;
+  }
+
+  .icon-container .icon {
+    width: 40px;
+    height: 40px;
+    margin-left: 0.4em;
+  }
+
+  label {
+    gap: 0.9rem;
+  }
+
+  .moon-icon {
+    margin-left: 0;
+  }
+
+  .sun-icon {
+    margin-right: 0;
+  }
+
+  #mode-thumb::before {
+    top: 0.25rem;
+  }
+
+  .sun-icon,
+  .moon-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  #mode-thumb {
+    width: 3.2rem;
+    height: 1.75rem;
+  }
+
+  #mode-thumb::before {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+
+  #mode-thumb:checked::before {
+    transform: translateX(1.3rem);
+  }
+
+  /* CHOOSE SUBJECT PAGE */
+
+  .heading {
+    font-size: 4rem;
+    margin-top: 0.68em;
+  }
+
+  .bold {
+    line-height: 1.05;
+  }
+
+  .sub-heading {
+    font-size: 1.25rem;
+    margin-top: 0.85em;
+  }
+
+  .quiz-options-wrapper {
+    margin-top: 4.2em;
+  }
+
+  .quiz-options {
+    gap: 1.45rem;
+  }
+
+  .quiz-options li {
+    font-size: 1.75rem;
+    padding: 0.44em;
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    margin-top: 0.005em;
+    & svg {
+      border-radius: 0.75rem;
+      width: 3.5rem;
+      height: 3.5rem;
+      margin-right: 1.15em;
+    }
+  }
+
+  /* QUESTION-PAGE */
+
+  .header-name {
+    font-size: 1.75rem;
+    font-weight: var(--fw-medium);
+    margin-left: 22px;
+    letter-spacing: 0.1px;
+  }
+
+  .question-navigation {
+    font-size: 1.25rem;
+    line-height: var(--line-height-large);
+    margin-top: 2.48em;
+    word-spacing: 0.5px;
+  }
+
+  .question {
+    font-size: 2.25rem;
+    line-height: 120%;
+    max-height: none;
+  }
+
+  #completing-bar {
+    margin-top: 3.1em;
+  }
+
+  .answer-container {
+    margin-top: 3.73em;
+  }
+
+  .answers {
+    gap: 1.46rem;
+  }
+
+  .answers li {
+    font-size: 1.75rem;
+    padding: 0.44em;
+    border-radius: 1.5rem;
+    & svg {
+      margin-right: 1.1em;
+      border-radius: 0.75rem;
+      width: 3.5rem;
+      height: 3.5rem;
+    }
+    & span {
+      width: 3.5rem;
+      height: 3.5rem;
+      border-radius: 0.75rem;
+    }
+  }
+
+  li.wrong {
+    background-size: 40px;
+  }
+
+  .correct {
+    background-size: 40px;
+  }
+
+  .submit,
+  .next,
+  .again-btn {
+    font-size: 1.75rem;
+    margin-top: 1.17em;
+    padding: 1.05em;
+    border-radius: 1.5rem;
+  }
+
+  .error-msg .error-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .error-msg {
+    font-size: 1.5rem;
+  }
+
+  .score-container {
+    margin-top: 2.68em;
+  }
+
+  .text-wrapper {
+    margin-bottom: 3.93em;
+  }
+
+  .quiz-text,
+  .boldtext {
+    font-size: 4rem;
+  }
+
+  .boldtext {
+    line-height: 107%;
+  }
+
+  .score-box {
+    padding-top: 2.93em;
+    padding-bottom: 3.2em;
+  }
+
+  .category {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "left right";
+    grid-template-rows: auto;
+  }
+
+  .score-icon-container {
+    width: 56px;
+    height: 56px;
+    background-color: rgb(254, 151, 151);
+    border-radius: 8px;
+    margin-right: 0.5em;
+    justify-self: end;
+    justify-content: flex-start;
+  }
+
+  .score-icon-container .icon {
+    width: 40px;
+    height: 40px;
+    margin-left: 0.4em;
+  }
+
+  .category-text {
+    font-size: 1.75rem;
+    margin-right: 6.9em;
+  }
+
+  .score {
+    font-size: 9rem;
+    margin-top: 0.18em;
+  }
+
+  .score-text {
+    font-size: 1.5rem;
+    margin-top: 0.29em;
+  }
+}
